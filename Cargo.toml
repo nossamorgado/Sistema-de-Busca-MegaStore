@@ -1,0 +1,10 @@
+[package]
+name = "sistema_de_busca"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Usando crate para manipulação de hash
+hashbrown = "0.12" # Biblioteca para HashMap de alta performance
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"  # Para manipulação de JSON (caso queira persistir os dados)
